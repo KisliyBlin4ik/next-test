@@ -1,0 +1,67 @@
+.active {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.success-message {
+    padding: 20px;
+    line-height: 150%;
+    background: rgb(59, 130, 246);
+}
+
+.error {
+    font-size: 0.875rem;
+    color: red;
+}
+
+.error-message {
+    padding: 20px;
+    line-height: 150%;
+    background: rgba(252, 133, 127, 0.5);
+    border: 1px solid rgb(255, 70, 60);
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 544px;
+    width: 100%;
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+.form__tabMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.input {
+    line-height: 200%;
+    padding: 15px 20px;
+    border: 1px solid gray;
+    background-color: rgb(15, 23, 42);
+    color: white;
+}
+
+.inputError {
+    border: 1px solid rgb(255, 70, 60);
+}
+
+.form__btn {
+    color: white;
+    width: 100%;
+    height: 65px;
+    background: rgb(59, 130, 246);
+}
